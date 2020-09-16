@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:700&display=swap';
+
+.body{
+    margin:0;
+    padding: 0;
+    background: rgb(7, 2, 2);
+    /* position: relative; */
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+    .img { display: none; }  
+  }
+
+.img{
+    width: 50%;
+    height: auto;
+    background-size: cover;
+    position: absolute; 
+    right: 7%; 
+  }
+
+.text-block {
+    margin-top: 9%;
+    padding: 20px;
+    /* background: rgb(7, 2, 2); */
+    position: absolute; 
+    left: 3%;
+}
+
+.bold {
+    font-family: 'Playfair Display,serif';
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.41;
+    margin-bottom: 2rem;
+}
+
+.inner-text {
+    font-family: 'Lato,sans-serif';
+    margin-bottom: 3.25rem;
+    font-size: 20px;
+}
+
+.light-text {
+    font-family: 'Playfair Display,serif';
+    font-size: 1.3rem;
+    opacity: .3;
+}
+
+ 
